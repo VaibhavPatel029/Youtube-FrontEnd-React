@@ -1,0 +1,33 @@
+.recommendedVideos {
+  flex: 0.8;
+  /* border: 1px solid blue; */
+  background-color: #f9f9f9;
+  padding: 0px 20px;
+  padding-bottom: 0;
+  margin: 0px;
+  justify-content: center;
+}
+
+.recommendedVideos > h2 {
+  margin-left: 5px;
+  margin-bottom: 20px;
+}
+.recommendedVideos__videos {
+  display: flex;
+  /* justify-content: space-between; */
+  flex-wrap: wrap;
+}
+.RecommendedButton {
+  /* margin: 0px; */
+  display: flex;
+  margin: 10px;
+}
+.Errow {
+  margin-top: 15px;
+  color: gray !important;
+  margin-left: -10px;
+}
+.Errow:hover {
+  cursor: pointer;
+  box-shadow: 10px lightgray;
+}

@@ -1,0 +1,54 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background-color: rgb(248, 248, 248);
+}
+.header__logo {
+  height: 25px;
+  /* this is pandding to learn and check out */
+  object-fit: contain;
+  margin-left: 15px;
+}
+
+.header__input {
+  display: flex;
+  align-items: center;
+  width: 40%;
+  height: 30px;
+  border: 1px solid rgb(196, 192, 192);
+  background-color: rgb(255, 255, 255);
+}
+.header__input:hover {
+  border: 1px solid rgb(14, 12, 12);
+}
+.header__input > input {
+  flex: 1;
+  outline: none;
+  border: none;
+}
+.header__inputbutton {
+  width: 50px !important;
+  margin-top: 3px;
+  height: 30px !important;
+  margin-bottom: -1px;
+  background-color: #dad6d6;
+  border-left: 1px solid lightgrey;
+  color: gray;
+}
+.header__icons {
+  display: flex;
+  align-items: center;
+}
+.header__icon:hover {
+  color: #8d8c81;
+  box-shadow: 0 0 5px #b28cf0;
+  text-shadow: 0 0 5px #ffee10;
+}
+.header__icon {
+  margin-right: 20px;
+}

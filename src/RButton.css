@@ -1,0 +1,17 @@
+.rButton__change {
+  background-color: rgb(238, 235, 235) !important;
+  border-radius: 36px !important;
+  color: black !important;
+  margin-top: 9px !important;
+  transition-timing-function: ease-in !important;
+  transition: all 0.5s !important;
+}
+.rButton {
+  margin-right: 10px;
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+.rButton__change:hover {
+  cursor: pointer;
+  background-color: black;
+}

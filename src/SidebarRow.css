@@ -1,0 +1,43 @@
+.sidebarRow {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  transition-timing-function: ease-in !important;
+  transition: all 0.5s !important;
+}
+.sidebarRow__icon {
+  color: gray;
+  font-size: large !important;
+}
+
+.sidebarRow__titel {
+  flex: 1;
+  margin-left: 20px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.sidebarRow:hover {
+  background-color: lightgrey;
+  cursor: pointer;
+  opacity: 1;
+  transform: scale(1.03);
+}
+
+.sidebarRow:hover > .sidebarRow__icon {
+  color: rgba(255, 0, 0, 0.829);
+}
+
+.sidebarRow:hover > .sidebarRow__titel {
+  font-weight: bold;
+}
+
+.sidebarRow.selected {
+  background-color: lightgrey;
+}
+.sidebarRow.selected > .sidebarRow__icon {
+  color: rgba(255, 0, 0, 0.829);
+}
+.sidebarRow.selected > .sidebarRow__titel {
+  font-weight: bold;
+}
